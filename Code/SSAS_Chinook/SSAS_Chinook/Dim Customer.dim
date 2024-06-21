@@ -1,0 +1,239 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="b1762fc9-d860-405d-8cef-4e6773aa6b4f" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Customer</ID>
+  <Name>Dim Customer</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1426" scrolltop="-3916" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="6703" y="11836" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900180380100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimCustomer" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3810" height="4004" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000e20e0000a40f0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimCustomer" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1426</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-3916</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="201">
+            <Shape Id="Customer Key" Expanded="false">
+              <Attributes>
+                <Attribute Id="Customer Key" />
+                <Attribute Id="Customer Full Name" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Customer Country" Expanded="false">
+              <Attributes>
+                <Attribute Id="Customer Country" />
+              </Attributes>
+              <Position x="276" y="20" />
+            </Shape>
+            <Shape Id="Customer State" Expanded="false">
+              <Attributes>
+                <Attribute Id="Customer State" />
+              </Attributes>
+              <Position x="276" y="71" />
+            </Shape>
+            <Shape Id="Customer City" Expanded="false">
+              <Attributes>
+                <Attribute Id="Customer City" />
+              </Attributes>
+              <Position x="276" y="122" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="329b2792-39cb-4e82-b018-188856a9b3d6">
+    <DataSourceViewID>Chinook DW</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="79e201b4-251a-4d77-a6c3-9669d02fa97d">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="b43d2cd9-3807-4104-a726-9cde3cc7e22c">
+      <ID>Customer Key</ID>
+      <Name>Customer Key</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d2ee6074-f32e-4631-8d1f-ca2ebc314f0c">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="85fdb05c-6854-4891-ae5b-9ada9178871d">
+            <TableID>dbo_DimCustomer</TableID>
+            <ColumnID>CustomerKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="2012dbde-5292-4431-ab0b-950c5da73873">
+          <AttributeID>Customer Full Name</AttributeID>
+          <Name>Customer Full Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="fcbd7cbc-97c2-4dfc-b1ec-7c371f96d287">
+          <AttributeID>Customer City</AttributeID>
+          <Name>Customer City</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c4483cee-98ad-4339-8ef1-cfc23eddd847">
+          <AttributeID>Customer State</AttributeID>
+          <Name>Customer State</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="0140ec32-94ba-4f25-a4ff-0c000870805b">
+          <AttributeID>Customer Country</AttributeID>
+          <Name>Customer Country</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0a0ad417-762f-4c4d-acfa-67291a24d729">
+      <ID>Customer Full Name</ID>
+      <Name>Customer Full Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3f594d97-ed8e-40f6-80e8-f4f68d8da21f">
+          <DataType>WChar</DataType>
+          <DataSize>80</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="42c4fbb3-e6bd-4ce2-9a2b-cfd77e619104">
+            <TableID>dbo_DimCustomer</TableID>
+            <ColumnID>CustomerFullName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4cdadd77-bada-48b1-96b3-aaff114ba09a">
+      <ID>Customer City</ID>
+      <Name>Customer City</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="84fbd276-5f66-4a85-9a9d-7041f1fb55eb">
+          <DataType>WChar</DataType>
+          <DataSize>40</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f4459679-9cac-49ba-bdb6-6f746b4b2f8f">
+            <TableID>dbo_DimCustomer</TableID>
+            <ColumnID>CustomerCity</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="48d44cc8-d375-4e57-9193-a7be7be0787b">
+      <ID>Customer State</ID>
+      <Name>Customer State</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="babc6f91-a2be-481e-b67f-bdb08292a829">
+          <DataType>WChar</DataType>
+          <DataSize>40</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="60a165c0-e942-48cd-bc89-3f8f12d93716">
+            <TableID>dbo_DimCustomer</TableID>
+            <ColumnID>CustomerState</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="80144b2c-3f71-4f2e-9ada-58ae78ad9ac5">
+      <ID>Customer Country</ID>
+      <Name>Customer Country</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e65c778a-eb62-4e41-aede-91228190a347">
+          <DataType>WChar</DataType>
+          <DataSize>40</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c9ee9aed-232e-4f2d-8fe9-d6ae5a28318b">
+            <TableID>dbo_DimCustomer</TableID>
+            <ColumnID>CustomerCountry</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="64a1c704-6b4d-478d-ab43-9735a5859fa0">
+      <ID>Hierarchy</ID>
+      <Name>Hierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="4d916acd-caa6-49b5-ad20-30f26302bece">
+          <ID>Customer Country</ID>
+          <Name>Customer Country</Name>
+          <SourceAttributeID>Customer Country</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="834396d0-b25c-4a2c-89dc-3df40ee0f79e">
+          <ID>Customer State</ID>
+          <Name>Customer State</Name>
+          <SourceAttributeID>Customer State</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="17d8fe42-084c-457b-bb5d-1dbf0c45bf6e">
+          <ID>Customer City</ID>
+          <Name>Customer City</Name>
+          <SourceAttributeID>Customer City</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

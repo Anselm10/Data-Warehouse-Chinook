@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="DESKTOP-UUOMSSN_SQLEXPRESS.Chinook_External_Source"
+  DTS:DTSID="{92646F88-D8B3-4212-87B4-AEB2440B6E5C}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=DESKTOP-UUOMSSN\SQLEXPRESS;Initial Catalog=Chinook_External_Source;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-SSIS-Chinook-{92646F88-D8B3-4212-87B4-AEB2440B6E5C}DESKTOP-UUOMSSN\SQLEXPRESS.Chinook_External_Source;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

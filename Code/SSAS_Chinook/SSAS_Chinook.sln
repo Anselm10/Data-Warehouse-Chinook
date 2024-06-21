@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "SSAS_Chinook", "SSAS_Chinook\SSAS_Chinook.dwproj", "{15F91D23-685A-46C1-B221-156552212221}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15F91D23-685A-46C1-B221-156552212221}.Development|Default.ActiveCfg = Development
+		{15F91D23-685A-46C1-B221-156552212221}.Development|Default.Build.0 = Development
+		{15F91D23-685A-46C1-B221-156552212221}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A4E33DFB-460F-4AD3-ADDF-696402572DAB}
+	EndGlobalSection
+EndGlobal
